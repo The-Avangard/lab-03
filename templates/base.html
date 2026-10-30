@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}AVANGARD TECH{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="/">AVANGARD SHOP</a>
+
+        <nav aria-label="Головна навігація">
+            <a href="/">Головна</a>
+            <a href="/catalog">Каталог</a>
+            <a href="/categories">Категорії</a>
+            <a href="/about">Про нас</a>
+            <a href="/contacts">Контакти</a>
+        </nav>
+    </header>
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer class="site-footer">
+        <p>AVANGARD SHOP — комп’ютери та ноутбуки</p>
+    </footer>
+</body>
+</html>
