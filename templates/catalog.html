@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block title %}Каталог | AVANGARD SHOP{% endblock %}
+
+{% block content %}
+<section class="page-intro">
+    <p class="eyebrow">AVANGARD SHOP</p>
+    <h1>Каталог техніки</h1>
+    <p>Комп’ютери та ноутбуки для навчання, роботи й ігор.</p>
+</section>
+
+<section class="catalog-section" id="laptops">
+    <h2>Ноутбуки</h2>
+    <div class="product-grid">
+        <article class="product-card">
+            <p class="product-type">Для навчання та роботи</p>
+            <h3>Ноутбук Everyday 15</h3>
+            <p>Intel Core i5 · 16 ГБ RAM · SSD 512 ГБ</p>
+            <p class="price">27 999 ₴</p>
+            <a href="/contacts">Запитати про товар</a>
+        </article>
+
+        <article class="product-card">
+            <p class="product-type">Для ігор</p>
+            <h3>Ноутбук GamePro 16</h3>
+            <p>AMD Ryzen 7 · 16 ГБ RAM · SSD 1 ТБ · RTX 4060</p>
+            <p class="price">49 999 ₴</p>
+            <a href="/contacts">Запитати про товар</a>
+        </article>
+    </div>
+</section>
+
+<section class="catalog-section" id="computers">
+    <h2>Комп’ютери</h2>
+    <div class="product-grid">
+        <article class="product-card">
+            <p class="product-type">Для дому та офісу</p>
+            <h3>Комп’ютер Office Plus</h3>
+            <p>Intel Core i5 · 16 ГБ RAM · SSD 1 ТБ</p>
+            <p class="price">32 999 ₴</p>
+            <a href="/contacts">Запитати про товар</a>
+        </article>
+
+        <article class="product-card">
+            <p class="product-type">Для ігор</p>
+            <h3>Комп’ютер GamePro</h3>
+            <p>AMD Ryzen 5 · 32 ГБ RAM · SSD 1 ТБ · RTX 4060</p>
+            <p class="price">52 999 ₴</p>
+            <a href="/contacts">Запитати про товар</a>
+        </article>
+    </div>
+</section>
+{% endblock %}
