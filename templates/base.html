@@ -50,7 +50,7 @@
             transform: translateY(-7px) rotate(-45deg);
         }
 
-        /* Білий текст у шапці, навіть якщо його колір задає style.css */
+        /* Білий текст у шапці */
         nav.bg-slate-800 a,
         nav.bg-slate-800 a:visited,
         nav.bg-slate-800 a:hover,
@@ -68,9 +68,14 @@
         <div class="container mx-auto flex justify-between items-center">
             <a
                 href="{{ url_for('home') }}"
-                class="text-white text-xl font-bold transition-transform duration-300 hover:scale-110"
+                class="flex items-center gap-3 text-xl font-bold text-white transition-transform duration-300 hover:scale-105"
             >
-                AVANGARD SHOP
+                <img
+                    src="{{ url_for('static', filename='css/avangard-logo.png') }}"
+                    alt="Емблема AVANGARD SHOP"
+                    class="h-10 w-10 object-contain"
+                >
+                <span>AVANGARD SHOP</span>
             </a>
 
             <!-- Меню для широких екранів -->
