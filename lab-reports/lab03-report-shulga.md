@@ -23,7 +23,9 @@
 - створено файл основних стилів `static/css/main.css`;
 - додано маршрути сторінок магазину («Про магазин», «Контакти»), які підключають шаблони, створені іншими учасниками;
 - як Teamlead — розподіл завдань між учасниками та координація роботи над сторінками
--  до папки `screenshots` добавив скріншоти у звичайному та мобільному вигляді.
+- до папки `screenshots` добавив скріншоти у звичайному та мобільному вигляді.
+- добавив бургер, для мобільної верстки.
+- написав README.
 
 
 
@@ -36,6 +38,11 @@
 | [`21787db`](https://github.com/The-Avangard/lab-03/commit/21787db) | 30.10.2026 | Додано маршрути каталогу та категорій |
 | [`aa46600`](https://github.com/The-Avangard/lab-03/commit/aa46600) | 30.10.2026 | Create main.css |
 | [`3c27ab3`](https://github.com/The-Avangard/lab-03/commit/3c27ab3) | 30.10.2026 | Додано маршрути сторінок магазину |
+| [`7f47a8a`](https://github.com/The-Avangard/lab-03/commit/7f47a8a) | 01.11.2026 | Додав скріншоти |
+| [`25ccb16`](https://github.com/The-Avangard/lab-03/commit/25ccb16) | 01.11.2026 | Rename lab03-report-student-id.md to lab03-report-shulga.md |
+| [`6424c47`](https://github.com/The-Avangard/lab-03/commit/6424c47) | 01.11.2026 | оновлено README |
+| [`a6f60f7`](https://github.com/The-Avangard/lab-03/commit/a6f60f7) | 04.11.2026 | добавив бургер |
+| [`d3b7f7f`](https://github.com/The-Avangard/lab-03/commit/d3b7f7f) | 04.11.2026 | оновив скріншоти у мобільному та звичайному вигляді |
 
 
 
